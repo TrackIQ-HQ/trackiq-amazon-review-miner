@@ -1,0 +1,21 @@
+{
+  "name": "trackiq-amazon-review-miner",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Review and Voice-of-Customer Miner \u2014 an Agent Skill for Amazon sellers, built on TrackIQ MCP data.",
+  "author": {
+    "name": "TrackIQ",
+    "url": "https://trackiq.com"
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-review-miner",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-review-miner",
+  "license": "MIT",
+  "keywords": [
+    "amazon",
+    "amazon-seller",
+    "claude-skill",
+    "agent-skills",
+    "mcp",
+    "trackiq",
+    "listing"
+  ]
+}

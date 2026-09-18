@@ -1,0 +1,40 @@
+{
+  "name": "trackiq-amazon-review-miner",
+  "title": "TrackIQ: Amazon Review and Voice-of-Customer Miner",
+  "category": "listing",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Builds a voice-of-customer picture for a brand by sampling reviews across its own catalogue and its competitors, clustering what buyers praise and complain about into themes, and turning those into bullet and A+ copy directions plus negative keywords. Uses the full star distribution for anything quantitative because only about eight review bodies are retrievable per product. Use when the user asks",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_product",
+      "get_product_performance",
+      "get_reviews",
+      "get_search_query_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": true,
+    "third_party_apis": [
+      "oxylabs"
+    ],
+    "third_party_note": "Requires an Oxylabs scraper connection; the public page is the only source for this data."
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-review-miner",
+  "license": "MIT"
+}
